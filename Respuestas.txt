@@ -1,0 +1,8 @@
+Vaya a la carpeta donde inicializó el repositorio:
+¿Puede ver el archivo tp2_1_2.cpp? ¿Por qué?
+No porque al estar en la rama "opcion2" se trabaja independientemente de la rama "Master" pudiendo hacer
+modificaciones en "opcion2" que hasta que no sean implementadas en master, es decir hasta que no se realice
+el merge, no se veran las modificaciones en Master.
+
+"gitk --all" muestra información del repositorio en una interfaz grafica. Se observa la separación del branch master y opcion_2 y luego su unificacion al ejecutar el comando merge
+
